@@ -1,51 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>React Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <!-- Navigation Sidebar -->
     <nav id="navbar">
-        <header>React Documentation</header>
+        <header>React Technical Documentation</header>
         <ul>
             <li><a class="nav-link" href="#Introduction_to_React">Introduction to React</a></li>
-            <li><a class="nav-link" href="#Setting_Up_a_React_Project">Setting Up a React Project</a></li>
-            <li><a class="nav-link" href="#JSX_JavaScript_XML">JSX: JavaScript XML</a></li>
-            <li><a class="nav-link" href="#Components_in_React">Components in React</a></li>
+            <li><a class="nav-link" href="#JSX_in_React">JSX in React</a></li>
+            <li><a class="nav-link" href="#React_Components">React Components</a></li>
             <li><a class="nav-link" href="#React_Hooks">React Hooks</a></li>
             <li><a class="nav-link" href="#React_Router">React Router</a></li>
-            <li><a class="nav-link" href="#State_Management">State Management</a></li>
-            <li><a class="nav-link" href="#Handling_Forms_in_React">Handling Forms</a></li>
-            <li><a class="nav-link" href="#Fetching_Data_in_React">Fetching Data</a></li>
-            <li><a class="nav-link" href="#Deploying_a_React_App">Deploying a React App</a></li>
         </ul>
     </nav>
 
     <main id="main-doc">
-        <section class="main-section" id="">
-            <header></header>
+        <section class="main-section" id="Introduction_to_React">
+            <header>Introduction to React</header>
+            <p>React is a JavaScript library for building user interfaces.</p>
+            <p>It allows developers to create reusable UI components.</p>
+            <p>React was created by Facebook and is now an open-source project maintained by Meta and contributors.</p>
+            <code>const element = &lt;h1&gt;Hello, world!&lt;/h1&gt;;</code>
         </section>
-        <section class="main-section" id="">
-            <header></header>
+
+        <section class="main-section" id="JSX_in_React">
+            <header>JSX in React</header>
+            <p>JSX is a syntax extension that allows you to write HTML inside JavaScript.</p>
+            <p>It makes your code more readable and expressive.</p>
+            <p>JSX is compiled into JavaScript using Babel before it runs in the browser.</p>
+            <code>const element = &lt;h1&gt;Hello, JSX!&lt;/h1&gt;;</code>
+            <ul>
+                <li>JSX makes code more readable</li>
+                <li>JSX prevents XSS attacks</li>
+                <li>JSX compiles to React.createElement()</li>
+            </ul>
         </section>
-        <section class="main-section" id="">
-            <header></header>
+
+        <section class="main-section" id="React_Components">
+            <header>React Components</header>
+            <p>React apps are built using components.</p>
+            <p>A component is a JavaScript function that returns JSX.</p>
+            <p>Components can be functional or class-based, and they help in reusability.</p>
+            <code>function MyComponent() { return &lt;h1&gt;Hello, Component!&lt;/h1&gt;; }</code>
+            <ul>
+                <li>Components can be functional or class-based</li>
+                <li>They make UI reusable</li>
+                <li>Components use props and state</li>
+            </ul>
         </section>
-        <section class="main-section" id="">
-            <header></header>
+
+        <section class="main-section" id="React_Hooks">
+            <header>React Hooks</header>
+            <p>Hooks let you use state and lifecycle methods in function components.</p>
+            <p>Before Hooks, only class components could use state and lifecycle methods.</p>
+            <p>Hooks were introduced in React 16.8 and have become the standard way of handling state in modern React
+                apps.</p>
+            <code>const [count, setCount] = useState(0);</code>
+            <ul>
+                <li>useState - for state management</li>
+                <li>useEffect - for side effects</li>
+                <li>useContext - for global state</li>
+                <li>useRef - for accessing DOM elements</li>
+                <li>useReducer - for complex state logic</li>
+            </ul>
         </section>
-        <section class="main-section" id="">
-            <header></header>
-        </section>
-        <section class="main-section" id="">
-            <header></header>
-        </section>
-        <section class="main-section" id="">
-            <header></header>
+
+        <section class="main-section" id="React_Router">
+            <header>React Router</header>
+            <p>React Router is used for navigation in React applications.</p>
+            <p>It allows users to navigate between different pages without reloading the entire application.</p>
+            <p>React Router works by mapping URL paths to specific React components.</p>
+            <code>&lt;Route path="/home" element={&lt;Home /&gt;} /&gt;</code>
+            <ul>
+                <li>Allows single-page applications (SPA)</li>
+                <li>Handles URL routing in React</li>
+                <li>Uses components like BrowserRouter and Route</li>
+            </ul>
         </section>
     </main>
-    
 </body>
+
 </html>
