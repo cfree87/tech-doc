@@ -41,8 +41,8 @@ body {
 
 /* Main Content */
 #main-doc {
-    margin-left: 270px;
-    padding: 20px;
+    margin-left: 320px;
+    padding: 3rem;
     flex-grow: 1;
 }
 
