@@ -8,7 +8,7 @@
 ---
 
 ## 🌐 Live Site  
-[View the Project on GitHub Pages](https://cfree87.github.io/Tech-Doc/)
+[View the Project on GitHub Pages](https://cfree87.github.io/tech-doc/)
 
 ---
 
@@ -22,7 +22,7 @@
 ---
 
 ## 📸 Screenshots  
-![TechDocPage Screenshot](Assets/images/techdoc-screenshot.png)
+![TechDocPage Screenshot](Assets/images/techdocpage.png)
 
 ---
 
@@ -43,7 +43,7 @@ This project was developed as part of the Responsive Web Design Certification fr
 ## 🚀 How to Use  
 1. Clone this repository:
    ```bash
-   git clone https://github.com/csfree87/Tech-Doc.git
+   git clone https://github.com/cfree87/Tech-Doc.git
    ```
 
 2. Open `index.html` in your browser  
